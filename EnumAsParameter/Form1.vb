@@ -25,10 +25,6 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim d As oDaysOfTheWeek = oDaysOfTheWeek.Saturday
 
-        'If d.HasFlag(oDaysOfTheWeek.Saturday) Then
-        '    MsgBox("has sat")
-        'End If
-
         MsgBox("Testing OR...")
         testDay(oDaysOfTheWeek.Saturday Or oDaysOfTheWeek.Sunday)
 
